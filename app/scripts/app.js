@@ -11,6 +11,10 @@ angular.module('ruhrjsApp', [])
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/howto', {
+        templateUrl: 'views/howto.html',
+        controller: 'HowtoCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
