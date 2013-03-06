@@ -21,6 +21,19 @@ angular.module('ruhrjsApp')
             description: "Provide Impsum Provide Impsum  Provide Impsum  Provide Impsum  Provide Impsum  Provide Impsum"
         },
         {
+            time : "06.03.2011 14:30",
+            title : "Creating a basic Design for RuhrJS",
+            speakers: [
+                {
+                    firstname: "Robin"
+                },
+                {
+                    firstname: "Philipp"
+                }
+            ],
+            description: "Provide Impsum Provide Impsum  Provide Impsum  Provide Impsum  Provide Impsum  Provide Impsum"
+        },
+        {
             time : "06.03.2011 12:00",
             title : "Creating the RuhrJS Website",
             speakers: [
