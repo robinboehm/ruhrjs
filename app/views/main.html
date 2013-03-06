@@ -1,3 +1,7 @@
 <div class="hero-unit">
-  <talk></talk>
+    <ul ng-repeat="talk in talks | orderBy:'time'">
+        <li>
+            <talk talk="talk"></talk>
+        </li>
+    </ul>
 </div>

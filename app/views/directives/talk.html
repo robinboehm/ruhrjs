@@ -1,11 +1,8 @@
 <article>
-    <time>06.03.2011 12:00</time>
-    <h3>Creating the RuhrJS Website</h3>
-    <ul>
-        <li>Robin</li>
-        <li>Philipp</li>
+    <time ng-bind="talk.time"></time>
+    <h3 ng-bind="talk.title"></h3>
+    <ul ng-repeat="speaker in talk.speakers">
+        <li ng-bind="speaker.firstname"></li>
     </ul>
-    <p>
-        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem IpsumLorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum
-    </p>
+    <p ng-bind="talk.description"></p>
 </article>
