@@ -6,7 +6,6 @@ angular.module('ruhrjsApp')
       templateUrl: 'views/directives/talk.html',
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
-        element.text('this is the talk directive');
       }
     };
   });
