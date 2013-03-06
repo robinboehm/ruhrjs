@@ -1,8 +1,12 @@
 <article>
-    <time ng-bind="talk.time"></time>
     <h3 ng-bind="talk.title"></h3>
-    <ul ng-repeat="speaker in talk.speakers">
-        <li ng-bind="speaker.firstname"></li>
+    <ul class="speakers">
+        <li class="speaker" ng-repeat="speaker in talk.speakers">
+            <span ng-bind="speaker.firstname"></span>
+        </li>
     </ul>
+
+    <span>@</span>
+    <time ng-bind="talk.time"></time>
     <p ng-bind="talk.description"></p>
 </article>
