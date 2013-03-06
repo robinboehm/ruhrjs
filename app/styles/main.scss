@@ -1,1 +1,57 @@
 @import "compass_twitter_bootstrap";
+@import "talk";
+
+
+$page_width:                 960px;
+$padding:                     60px;
+$logo_width:                 150px;
+$page_inner_width:           ($page_width - (2*$padding)) ;
+$wordcloud_width:            ($page_inner_width - $logo_width)/$page_inner_width;
+
+.page{
+  max-width: $page_width;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+header{
+  position: relative;
+}
+
+header .logo{
+  height: 150px;
+  width: $logo_width;
+  float:left;
+  border: 1px solid black;
+}
+
+header .wordcloud{
+  height: 100px;
+  width: percentage($wordcloud_width);
+  float:left;
+  border: 1px solid black;
+}
+
+header nav{
+  width: $wordcloud_width;
+  float:left;
+  border: 1px solid black;
+}
+
+header .navbar{
+  margin: 0px;
+}
+
+.content{
+  clear: both;
+}
+
+.talks li{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.talks{
+  max-width: 960px;
+}
+

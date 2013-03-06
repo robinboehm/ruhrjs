@@ -1,6 +1,6 @@
-<div class="hero-unit">
-    <ul ng-repeat="talk in talks | orderBy:'time'">
-        <li>
+<div>
+    <ul class="talks grid-fluid">
+        <li class="span" ng-repeat="talk in talks | orderBy:'time'">
             <talk talk="talk"></talk>
         </li>
     </ul>

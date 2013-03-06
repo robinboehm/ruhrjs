@@ -22,35 +22,44 @@
       <script src="components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
-    <header>
-        <!-- Ruhr JS Logo -->
-        <div class="logo"></div>
+    <div class="page hero-unit">
 
-        <!-- (Titter) WordCloud -->
-        <div class="wordcloud"></div>
+        <header class="container-fluid">
+            <!-- Ruhr JS Logo -->
+            <div class="logo">
+                RuhrJS(Logo)
+            </div>
 
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#/">Events</a>
-                </li>
-                <li>
-                    <a href="#/about">About</a>
-                </li>
-                <li>
-                    <a href="#/howto">Howto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Add your site or application content here -->
-    <div class="container" ng-view></div>
+            <!-- (Titter) WordCloud -->
+            <div class="wordcloud">
+                Word-Cloud
+            </div>
 
-    <!-- Footer -->
-    <footer>
-        <span>Imprint</span>
-    </footer>
+            <!-- Navigation -->
+            <nav class="navbar">
+                <ul class="nav">
+                    <li>
+                        <a href="#/">Events</a>
+                    </li>
+                    <li>
+                        <a href="#/about">About</a>
+                    </li>
+                    <li>
+                        <a href="#/howto">Howto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="clearfix"></div>
+        </header>
+        <!-- Add your site or application content here -->
+        <div ng-view class="content container-fluid"></div>
+        <!-- Footer -->
+        <footer>
+            <span>Imprint</span>
+        </footer>
+
+    </div>
 
     <script src="components/angular/angular.js"></script>
     <script src="components/angular-resource/angular-resource.js"></script>
