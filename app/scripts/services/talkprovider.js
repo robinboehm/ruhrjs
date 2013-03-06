@@ -8,6 +8,19 @@ angular.module('ruhrjsApp')
     // Possible extension via $http service
     var talks = [
         {
+            time : "06.03.2011 12:30",
+            title : "Using TalkProvider",
+            speakers: [
+                {
+                    firstname: "Robin"
+                },
+                {
+                    firstname: "Philipp"
+                }
+            ],
+            description: "Provide Impsum Provide Impsum  Provide Impsum  Provide Impsum  Provide Impsum  Provide Impsum"
+        },
+        {
             time : "06.03.2011 12:00",
             title : "Creating the RuhrJS Website",
             speakers: [
