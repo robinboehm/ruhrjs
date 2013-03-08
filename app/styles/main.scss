@@ -8,6 +8,11 @@ $logo_width:                 150px;
 $page_inner_width:           ($page_width - (2*$padding)) ;
 $wordcloud_width:            ($page_inner_width - $logo_width)/$page_inner_width;
 
+html{
+  background-image: url("../images/gray-noise-background.jpg");
+  background-repeat: repeat;
+}
+
 .page{
   max-width: $page_width;
   margin: 0 auto;
