@@ -7,8 +7,6 @@ angular.module('ruhrjsApp')
       restrict: 'E',
        scope: {
           talk: "="
-       },
-      link: function postLink(scope, element, attrs) {
-      }
+       }
     };
   });
