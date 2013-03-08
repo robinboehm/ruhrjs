@@ -3,5 +3,8 @@
         <li class="span" ng-repeat="talk in talks | orderBy:'time'">
             <talk talk="talk"></talk>
         </li>
+        <li class="span" ng-repeat="freeSlot in freeSlots">
+            <free-slot text="freeSlot"></free-slot>
+        </li>
     </ul>
 </div>
