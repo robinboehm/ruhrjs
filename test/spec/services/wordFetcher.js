@@ -11,8 +11,4 @@ describe('Service: wordFetcher', function () {
     wordFetcher = _wordFetcher_;
   }));
 
-  it('should do something', function () {
-    expect(!!wordFetcher).toBe(true);
-  });
-
 });

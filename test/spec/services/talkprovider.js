@@ -11,8 +11,4 @@ describe('Service: talkprovider', function () {
     talkprovider = _talkprovider_;
   }));
 
-  it('should do something', function () {
-    expect(!!talkprovider).toBe(true);
-  });
-
 });
