@@ -2,9 +2,6 @@
 
 angular.module('ruhrjsApp')
   .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Testacular'
-    ];
+   $scope.words = ["This","is","a","d3","wordcloud"];
+   $scope.words2 = ["This","is","a","d3","wordcloud","with","much","more","text","then","the","first"];
   });
